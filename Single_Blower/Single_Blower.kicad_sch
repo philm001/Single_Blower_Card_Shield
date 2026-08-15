@@ -163,6 +163,193 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector_Generic:Conn_01x03"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x03_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_01x04"
 			(pin_names
 				(offset 1.016)
@@ -1451,6 +1638,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "https://protosupplies.com/product/e18-d80nk-adjustable-infrared-proximity-sensor-module/"
+		(exclude_from_sim no)
+		(at 125.73 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "45e7d747-909e-4483-8d63-d46894532262")
+	)
 	(junction
 		(at 97.79 39.37)
 		(diameter 0)
@@ -1476,10 +1673,20 @@
 		(uuid "80d58046-151f-49ce-8d55-255ef6033165")
 	)
 	(junction
-		(at 119.38 41.91)
+		(at 213.36 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8c599a44-28b3-44dc-994f-34ec7a507467")
+		(uuid "aab63810-3b79-4154-8be9-12e4e4f3c934")
+	)
+	(junction
+		(at 201.295 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b28e11a3-03a7-4f6d-975e-7fa7abeb4a21")
+	)
+	(no_connect
+		(at 80.01 41.91)
+		(uuid "25c2f42d-a015-4cd4-9404-0914588cd8a6")
 	)
 	(wire
 		(pts
@@ -1500,6 +1707,16 @@
 			(type default)
 		)
 		(uuid "082eef8b-6e39-4842-868e-34166acf99a5")
+	)
+	(wire
+		(pts
+			(xy 213.36 47.625) (xy 213.36 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bd536db-0a57-4636-9dee-c1da48a76ed2")
 	)
 	(wire
 		(pts
@@ -1543,16 +1760,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 41.91) (xy 119.38 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1cd5a8a9-5466-48bc-8d34-7c9d1f727de6")
-	)
-	(wire
-		(pts
 			(xy 67.31 85.09) (xy 67.31 88.9)
 		)
 		(stroke
@@ -1560,6 +1767,16 @@
 			(type default)
 		)
 		(uuid "20d0a1ca-4b9c-4453-b718-5334d862d781")
+	)
+	(wire
+		(pts
+			(xy 198.12 50.8) (xy 201.295 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c1f4128-5706-4a01-8394-314d174e53f5")
 	)
 	(wire
 		(pts
@@ -1573,6 +1790,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.295 62.23) (xy 201.295 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4621f0b3-d764-45b2-862d-786dce4f17d4")
+	)
+	(wire
+		(pts
 			(xy 93.98 39.37) (xy 93.98 48.26)
 		)
 		(stroke
@@ -1583,23 +1810,23 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 41.91) (xy 119.38 40.64)
+			(xy 213.36 50.8) (xy 215.265 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4c1d3bf5-c168-44fb-8f7d-2e1a7f22e28f")
+		(uuid "4c522219-5827-45e9-b57d-08217cf4e263")
 	)
 	(wire
 		(pts
-			(xy 119.38 41.91) (xy 125.73 41.91)
+			(xy 213.36 62.865) (xy 213.36 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "645d034f-00ae-43bb-b010-1c40ba76a82f")
+		(uuid "4d7c15aa-66c5-408c-b006-c1c5a35a2762")
 	)
 	(wire
 		(pts
@@ -1663,16 +1890,6 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 30.48) (xy 119.38 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "881460f2-8fae-417d-ad6b-38e5d0e3136e")
-	)
-	(wire
-		(pts
 			(xy 53.34 96.52) (xy 53.34 105.41)
 		)
 		(stroke
@@ -1690,6 +1907,16 @@
 			(type default)
 		)
 		(uuid "8cf7b06b-7a6d-4107-a0bf-d879f9817860")
+	)
+	(wire
+		(pts
+			(xy 211.455 50.8) (xy 213.36 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99a75a90-eda0-43ec-b98a-687849a26270")
 	)
 	(wire
 		(pts
@@ -1733,6 +1960,26 @@
 	)
 	(wire
 		(pts
+			(xy 201.295 50.8) (xy 203.835 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6805af7-f158-4e0d-a572-c58e546887f7")
+	)
+	(wire
+		(pts
+			(xy 213.36 53.34) (xy 215.265 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc3323c3-d98f-4ca8-9a2e-14d25f6dd749")
+	)
+	(wire
+		(pts
 			(xy 39.37 85.09) (xy 39.37 88.9)
 		)
 		(stroke
@@ -1763,6 +2010,26 @@
 	)
 	(wire
 		(pts
+			(xy 201.295 54.61) (xy 201.295 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5d3bdbc-3dca-4336-ae94-8c072237e866")
+	)
+	(wire
+		(pts
+			(xy 213.36 38.1) (xy 213.36 40.005)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9bf7919-ba5d-4b85-956c-38bdb7727886")
+	)
+	(wire
+		(pts
 			(xy 39.37 88.9) (xy 39.37 99.06)
 		)
 		(stroke
@@ -1770,6 +2037,30 @@
 			(type default)
 		)
 		(uuid "ef6505d0-d151-48c9-8737-423ac8aa316f")
+	)
+	(global_label "SW_1"
+		(shape input)
+		(at 198.12 50.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0dc361b7-3273-47c5-8d0c-18843c9b267e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 190.2968 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 	)
 	(global_label "PIN_1_PWM"
 		(shape input)
@@ -1784,30 +2075,6 @@
 		(uuid "75edf599-9cbe-4bf4-b8e9-14d91905193d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 139.238 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "PIN_1_Tach"
-		(shape output)
-		(at 125.73 41.91 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d3e5fdb3-89a2-45c6-91f8-861c86bd5fef")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.4194 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1937,6 +2204,377 @@
 			(project "Single_Blower"
 				(path "/90bd5b7e-086b-4629-b382-9ed6a3c0cc5e"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 213.36 43.815 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "06026fad-22aa-42e7-9f9c-46ed5d7e68d3")
+		(property "Reference" "R1"
+			(at 210.82 43.815 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 215.646 43.815 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Switch_Daughter_Card_ftp:R0805"
+			(at 214.376 44.069 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 43.815 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RES 10K OHM 1% 1/8W 0805"
+			(at 213.36 43.815 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfg." "Stackpole Electronics Inc"
+			(at 213.36 43.815 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfg. PN" "RMCF0805FT10K0"
+			(at 213.36 43.815 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" "Digikey"
+			(at 213.36 43.815 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor PN" "RMCF0805FT10K0TR-ND"
+			(at 213.36 43.815 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d38da4df-8368-4b8f-b155-a6ebe5581e1e")
+		)
+		(pin "1"
+			(uuid "d58770fd-5bde-48e3-a6a7-c52d3fd1cdee")
+		)
+		(instances
+			(project "Single_Blower"
+				(path "/90bd5b7e-086b-4629-b382-9ed6a3c0cc5e"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 201.295 62.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07dfbc63-3eba-45aa-86f4-3c4fb723f8a7")
+		(property "Reference" "#PWR02"
+			(at 201.295 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 201.295 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.295 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.295 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 201.295 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfg." ""
+			(at 201.295 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfg. PN" ""
+			(at 201.295 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" ""
+			(at 201.295 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor PN" ""
+			(at 201.295 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "05930135-b21d-483b-98c2-655dde529fe7")
+		)
+		(instances
+			(project "Single_Blower"
+				(path "/90bd5b7e-086b-4629-b382-9ed6a3c0cc5e"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 201.295 57.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "08be696a-88c9-4d0a-816d-f58fe01e8598")
+		(property "Reference" "C1"
+			(at 194.056 56.007 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 194.056 58.547 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Switch_Daughter_Card_ftp:C0805"
+			(at 201.295 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.295 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 50V X7R 0805"
+			(at 201.295 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfg." "Samsung Electro-Mechanics"
+			(at 201.295 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfg. PN" "CL21B104KBCNNNC"
+			(at 201.295 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" "Digikey"
+			(at 201.295 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor PN" "1276-1003-2-ND"
+			(at 201.295 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ca22462a-b95b-48be-9216-27a286981355")
+		)
+		(pin "2"
+			(uuid "61f97702-a788-4512-9912-10dfb7065a08")
+		)
+		(instances
+			(project "Single_Blower"
+				(path "/90bd5b7e-086b-4629-b382-9ed6a3c0cc5e"
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -2394,6 +3032,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 213.36 38.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2dac01cc-f049-44df-b11f-18e11894b6e9")
+		(property "Reference" "#PWR03"
+			(at 213.36 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 213.36 33.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 213.36 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "056b5918-3005-4263-8563-4955aef49cbc")
+		)
+		(instances
+			(project "Single_Blower"
+				(path "/90bd5b7e-086b-4629-b382-9ed6a3c0cc5e"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 194.31 90.17 0)
 		(unit 1)
@@ -2414,7 +3129,7 @@
 				)
 			)
 		)
-		(property "Value" "LED 1"
+		(property "Value" "LED"
 			(at 194.437 95.758 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2424,7 +3139,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fan_Daughter_footprints:2-pin-shrouded"
+		(property "Footprint" ""
 			(at 194.31 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -2468,7 +3183,7 @@
 				)
 			)
 		)
-		(property "Mfg. PN" "2-644803-2"
+		(property "Mfg. PN" "640457-2"
 			(at 194.31 98.044 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2489,7 +3204,7 @@
 				)
 			)
 		)
-		(property "Distributor PN" "A30924-ND"
+		(property "Distributor PN" "A1926-ND"
 			(at 194.31 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -2633,6 +3348,128 @@
 			(project "Single_Blower"
 				(path "/90bd5b7e-086b-4629-b382-9ed6a3c0cc5e"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 220.345 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "471522d0-c810-4979-a66b-f3da69e4f5b9")
+		(property "Reference" "J2"
+			(at 220.218 47.752 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SWITCH"
+			(at 220.472 56.388 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.345 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=644803&DocType=Customer+Drawing&DocLang=English"
+			(at 220.345 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CONN HEADER R/A 2POS 2.54MM"
+			(at 220.345 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfg." "TE Connectivity AMP Connectors"
+			(at 220.345 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfg. PN" "640457-2"
+			(at 220.345 58.801 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" "Digikey"
+			(at 220.345 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor PN" "A1926-ND"
+			(at 220.345 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "da8ea0a2-1689-47d5-bbfa-39b3b92ec436")
+		)
+		(pin "2"
+			(uuid "aaa2df1f-f1a4-438d-b058-93b4446f35bc")
+		)
+		(instances
+			(project "Single_Blower"
+				(path "/90bd5b7e-086b-4629-b382-9ed6a3c0cc5e"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -2834,6 +3671,129 @@
 			(project "Single_Blower"
 				(path "/90bd5b7e-086b-4629-b382-9ed6a3c0cc5e"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 207.645 50.8 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5accf0f8-7c5e-40f9-9b66-c5280bd21e7c")
+		(property "Reference" "R2"
+			(at 207.645 48.387 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 207.645 52.959 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Switch_Daughter_Card_ftp:R0805"
+			(at 207.899 49.784 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.645 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RES 100K OHM 1% 1/8W 0805"
+			(at 207.645 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfg." "Stackpole Electronics Inc"
+			(at 207.645 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfg. PN" "RMCF0805FG100K"
+			(at 207.645 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" "Digikey"
+			(at 207.645 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor PN" "RMCF0805FG100KTR-ND"
+			(at 207.645 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e59e1439-941c-4fd5-a1f3-0c8a54c23561")
+		)
+		(pin "1"
+			(uuid "91c57669-1dbc-4e54-9001-24ede1e4317a")
+		)
+		(instances
+			(project "Single_Blower"
+				(path "/90bd5b7e-086b-4629-b382-9ed6a3c0cc5e"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -3539,8 +4499,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 119.38 36.83 0)
+		(lib_id "power:GND")
+		(at 213.36 62.865 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3548,9 +4508,11 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "a1db5a2e-f68a-424d-961c-fa7dfb651444")
-		(property "Reference" "R2"
-			(at 116.84 36.83 90)
+		(fields_autoplaced yes)
+		(uuid "9cbd1d99-e121-43cc-a34d-18d524c04281")
+		(property "Reference" "#PWR04"
+			(at 213.36 69.215 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3559,8 +4521,9 @@
 				)
 			)
 		)
-		(property "Value" "10k"
-			(at 121.666 36.83 90)
+		(property "Value" "GND"
+			(at 213.36 67.945 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3569,8 +4532,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Fan_Daughter_footprints:R0805"
-			(at 120.396 37.084 90)
+		(property "Footprint" ""
+			(at 213.36 62.865 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3581,7 +4544,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 36.83 0)
+			(at 213.36 62.865 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3591,8 +4554,8 @@
 				)
 			)
 		)
-		(property "Description" "RES 10K OHM 1% 1/8W 0805"
-			(at 119.38 36.83 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 213.36 62.865 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3602,8 +4565,8 @@
 				)
 			)
 		)
-		(property "Mfg." "Stackpole Electronics Inc"
-			(at 119.38 36.83 0)
+		(property "Mfg." ""
+			(at 213.36 62.865 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3613,8 +4576,8 @@
 				)
 			)
 		)
-		(property "Mfg. PN" "RMCF0805FT10K0"
-			(at 119.38 36.83 0)
+		(property "Mfg. PN" ""
+			(at 213.36 62.865 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3624,8 +4587,8 @@
 				)
 			)
 		)
-		(property "Distributor" "Digikey"
-			(at 119.38 36.83 0)
+		(property "Distributor" ""
+			(at 213.36 62.865 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3635,8 +4598,8 @@
 				)
 			)
 		)
-		(property "Distributor PN" "RMCF0805FT10K0TR-ND"
-			(at 119.38 36.83 0)
+		(property "Distributor PN" ""
+			(at 213.36 62.865 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3645,17 +4608,14 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "2"
-			(uuid "b9157c82-612d-4313-91a1-6f5c2765f083")
 		)
 		(pin "1"
-			(uuid "36f5fdef-9539-4023-a896-7e2106e2e072")
+			(uuid "6b0c04a8-55c4-4fd4-bc4b-06110c86e887")
 		)
 		(instances
 			(project "Single_Blower"
 				(path "/90bd5b7e-086b-4629-b382-9ed6a3c0cc5e"
-					(reference "R2")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -3684,7 +4644,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BLOWER 1"
+		(property "Value" "BLOWER"
 			(at 73.025 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3695,7 +4655,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Fan_Daughter_footprints:4-pin-shrouded"
+		(property "Footprint" ""
 			(at 74.93 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -3706,7 +4666,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=644803&DocType=Customer+Drawing&DocLang=English"
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=640457&DocType=Customer+Drawing&DocLang=English"
 			(at 74.93 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -3739,7 +4699,7 @@
 				)
 			)
 		)
-		(property "Mfg. PN" "2-644803-4"
+		(property "Mfg. PN" "640457-4"
 			(at 74.803 47.244 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3760,7 +4720,7 @@
 				)
 			)
 		)
-		(property "Distributor PN" "A30926-ND"
+		(property "Distributor PN" "A1927-ND"
 			(at 74.93 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -4039,8 +4999,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 119.38 30.48 0)
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 147.32 82.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4048,30 +5008,32 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "d047d02f-65dd-4a5d-a5e7-9f0d64b63fa4")
-		(property "Reference" "#PWR02"
-			(at 119.38 34.29 0)
-			(hide yes)
+		(fields_autoplaced yes)
+		(uuid "c06a6f4c-ec23-4c51-8fc8-ea2f44b75d4d")
+		(property "Reference" "J4"
+			(at 149.86 81.2799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "+5V"
-			(at 119.38 25.4 0)
+		(property "Value" "Conn_01x03"
+			(at 149.86 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 30.48 0)
+			(at 147.32 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4082,7 +5044,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 30.48 0)
+			(at 147.32 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4092,8 +5054,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 119.38 30.48 0)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 147.32 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4104,12 +5066,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "6651b429-a880-40c4-b787-9a93859debda")
+			(uuid "f4cbd7da-33dd-470a-bac7-71cf3341b2ef")
+		)
+		(pin "2"
+			(uuid "44599358-ef1f-472d-b922-cafd1096cc08")
+		)
+		(pin "3"
+			(uuid "886b2533-e907-4d1f-8eb0-ee237dd4da87")
 		)
 		(instances
 			(project "Single_Blower"
 				(path "/90bd5b7e-086b-4629-b382-9ed6a3c0cc5e"
-					(reference "#PWR02")
+					(reference "J4")
 					(unit 1)
 				)
 			)
