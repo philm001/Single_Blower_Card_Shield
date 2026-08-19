@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "mega_shield_symbols") (type "KiCad") (uri "${KIPRJMOD}/mega_shield_symbols.kicad_sym") (options "") (descr ""))
+)
