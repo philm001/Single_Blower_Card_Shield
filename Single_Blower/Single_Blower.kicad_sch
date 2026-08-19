@@ -5,6 +5,496 @@
 	(uuid "90bd5b7e-086b-4629-b382-9ed6a3c0cc5e")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:DE9_Pins_MountingHoles"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 16.51 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "DE9_Pins_MountingHoles"
+				(at 0 14.605 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "9-pin D-SUB connector, pins (male), Mounting Hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "DSUB DB9"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "DSUB*Pins*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "DE9_Pins_MountingHoles_0_1"
+				(polyline
+					(pts
+						(xy -3.81 10.16) (xy -2.54 10.16)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 7.62) (xy 0.508 7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 5.08) (xy -2.54 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 2.54) (xy 0.508 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -2.54) (xy 0.508 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -5.08) (xy -2.54 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -7.62) (xy 0.508 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -10.16) (xy -2.54 -10.16)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -13.335) (xy -3.81 13.335) (xy 3.81 9.525) (xy 3.81 -9.525) (xy -3.81 -13.335)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -1.778 10.16)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -1.778 5.08)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -1.778 0)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -1.778 -5.08)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -1.778 -10.16)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 7.62)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 2.54)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 -2.54)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 -7.62)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "DE9_Pins_MountingHoles_1_1"
+				(pin passive line
+					(at -7.62 -10.16 0)
+					(length 3.81)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -5.08 0)
+					(length 3.81)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 5.08 0)
+					(length 3.81)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 10.16 0)
+					(length 3.81)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -7.62 0)
+					(length 3.81)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 3.81)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 3.81)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 7.62 0)
+					(length 3.81)
+					(name "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -15.24 90)
+					(length 3.81)
+					(name "PAD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
 				(offset 1.016)
@@ -1661,6 +2151,12 @@
 		(uuid "24741ab5-f44c-439b-be04-1eaa60f353e4")
 	)
 	(junction
+		(at 123.19 131.445)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e43c506-04cd-4b64-b245-efea80ba7e28")
+	)
+	(junction
 		(at 39.37 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1673,6 +2169,12 @@
 		(uuid "80d58046-151f-49ce-8d55-255ef6033165")
 	)
 	(junction
+		(at 123.19 128.905)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d2eb037-91d3-4369-bff9-e17d6b142a4d")
+	)
+	(junction
 		(at 184.15 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1683,6 +2185,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b28e11a3-03a7-4f6d-975e-7fa7abeb4a21")
+	)
+	(junction
+		(at 123.19 149.225)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb9909ea-a31f-49d4-952d-ae4a40e02722")
 	)
 	(no_connect
 		(at 34.29 35.56)
@@ -1700,6 +2208,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 131.445) (xy 127 131.445)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06a19d7d-317f-476c-a4ec-9d3d0432d6c1")
+	)
+	(wire
+		(pts
 			(xy 60.96 88.9) (xy 67.31 88.9)
 		)
 		(stroke
@@ -1707,6 +2225,16 @@
 			(type default)
 		)
 		(uuid "082eef8b-6e39-4842-868e-34166acf99a5")
+	)
+	(wire
+		(pts
+			(xy 119.38 136.525) (xy 127 136.525)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0af8e8ba-8203-4f37-b169-685bb0e9dbf6")
 	)
 	(wire
 		(pts
@@ -1800,6 +2328,26 @@
 	)
 	(wire
 		(pts
+			(xy 127 146.685) (xy 123.19 146.685)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "261438e6-c599-4de2-9ad1-b1be1a56126a")
+	)
+	(wire
+		(pts
+			(xy 123.19 131.445) (xy 123.19 128.905)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "299ea537-4dda-40cf-9717-351fdf5b66b5")
+	)
+	(wire
+		(pts
 			(xy 189.23 81.28) (xy 181.61 81.28)
 		)
 		(stroke
@@ -1820,6 +2368,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 139.065) (xy 127 139.065)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38b557eb-11ca-4d0f-a837-844f112fd7fa")
+	)
+	(wire
+		(pts
 			(xy 168.91 45.72) (xy 172.085 45.72)
 		)
 		(stroke
@@ -1830,6 +2388,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 149.225) (xy 123.19 159.385)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ea3e1f6-6553-4d90-8938-9b1c976ebf90")
+	)
+	(wire
+		(pts
 			(xy 52.07 33.02) (xy 52.07 41.91)
 		)
 		(stroke
@@ -1837,6 +2405,16 @@
 			(type default)
 		)
 		(uuid "434e518a-7aa7-484e-85c7-a82e4cb75ea3")
+	)
+	(wire
+		(pts
+			(xy 123.19 149.225) (xy 127 149.225)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43c2ea8a-65fb-4401-b937-76645388a904")
 	)
 	(wire
 		(pts
@@ -1880,6 +2458,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 133.985) (xy 123.19 131.445)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "697c1125-57b0-42b1-9052-035a9bf68f42")
+	)
+	(wire
+		(pts
 			(xy 34.29 38.1) (xy 80.01 38.1)
 		)
 		(stroke
@@ -1917,6 +2505,26 @@
 			(type default)
 		)
 		(uuid "72db0ecd-a18a-4ed4-b698-3b918fa27414")
+	)
+	(wire
+		(pts
+			(xy 119.38 141.605) (xy 127 141.605)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76ac53eb-a605-4ab5-8b6f-1fcd283d09e6")
+	)
+	(wire
+		(pts
+			(xy 119.38 144.145) (xy 127 144.145)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78b2fa7d-0d93-4970-8771-e12efda7cd71")
 	)
 	(wire
 		(pts
@@ -1997,6 +2605,26 @@
 			(type default)
 		)
 		(uuid "a02e6e24-0d21-41be-a9c2-77d4b7757745")
+	)
+	(wire
+		(pts
+			(xy 123.19 128.905) (xy 127 128.905)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a033401a-f0fa-4ed8-b8fe-79d7a86e5b85")
+	)
+	(wire
+		(pts
+			(xy 123.19 146.685) (xy 123.19 149.225)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6c11985-8824-4a24-860c-0cfdadb1f09d")
 	)
 	(wire
 		(pts
@@ -2090,6 +2718,36 @@
 	)
 	(wire
 		(pts
+			(xy 127 133.985) (xy 123.19 133.985)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e64e96ab-8b52-40e8-b180-a0f9039133e1")
+	)
+	(wire
+		(pts
+			(xy 123.19 128.905) (xy 123.19 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e704e702-97ed-46b7-bb7c-9fe5a68a1537")
+	)
+	(wire
+		(pts
+			(xy 134.62 154.305) (xy 134.62 159.385)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9a35e62-4d24-4f12-a01b-7c7a8a087970")
+	)
+	(wire
+		(pts
 			(xy 39.37 88.9) (xy 39.37 99.06)
 		)
 		(stroke
@@ -2123,8 +2781,8 @@
 		)
 	)
 	(global_label "LED_PIN"
-		(shape input)
-		(at 109.22 127 180)
+		(shape output)
+		(at 119.38 136.525 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2134,7 +2792,7 @@
 		)
 		(uuid "1aba83ab-e9df-4aaf-a6c0-8733d114def9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 98.6148 127 0)
+			(at 108.7748 136.525 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2147,8 +2805,8 @@
 		)
 	)
 	(global_label "LIMIT_PIN"
-		(shape input)
-		(at 106.68 143.51 180)
+		(shape output)
+		(at 119.38 141.605 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2158,7 +2816,7 @@
 		)
 		(uuid "4eacd8ad-5bc0-4f80-80b3-081dc30f8ac8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 94.8652 143.51 0)
+			(at 107.5652 141.605 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2219,8 +2877,8 @@
 		)
 	)
 	(global_label "SENSOR_PIN"
-		(shape output)
-		(at 107.95 134.62 180)
+		(shape input)
+		(at 119.38 139.065 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2230,7 +2888,7 @@
 		)
 		(uuid "94f1b163-6d99-4522-b759-286621910fbf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.2929 134.62 0)
+			(at 104.7229 139.065 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2243,18 +2901,18 @@
 		)
 	)
 	(global_label "PWM_PIN"
-		(shape input)
-		(at 104.14 152.4 0)
+		(shape output)
+		(at 119.38 144.145 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "d69b634f-be00-4a15-aca7-9183cb37d4a7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 115.4709 152.4 0)
+			(at 108.0491 144.145 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2262,7 +2920,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
@@ -2408,6 +3066,155 @@
 			(project "Single_Blower"
 				(path "/90bd5b7e-086b-4629-b382-9ed6a3c0cc5e"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:DE9_Pins_MountingHoles")
+		(at 134.62 139.065 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "05b431a3-8c0f-47d2-bb68-06d4c462173d")
+		(property "Reference" "J6"
+			(at 140.335 139.065 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DE9_Pins_MountingHoles"
+			(at 139.7 140.3349 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Single_blower_footprints:ASSMANN_A-DS_09_A_KG-T2S"
+			(at 134.62 139.065 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.assmann-wsw.com/uploads/datasheets/ASS_4888_CO.pdf"
+			(at 134.62 139.065 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CONN D-SUB PLUG 9POS R/A SOLDER"
+			(at 134.62 139.065 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfg." "Assmann WSW Components"
+			(at 134.62 139.065 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfg. PN" "A-DS 09 A/KG-T2S"
+			(at 149.86 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" "Digikey"
+			(at 134.62 139.065 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIstributor PN" "AE10968-ND"
+			(at 134.62 139.065 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "43bd3c17-b73a-4b51-b01f-973231a09ec2")
+		)
+		(pin "4"
+			(uuid "de55c4ea-762e-4718-81af-332f6a780beb")
+		)
+		(pin "5"
+			(uuid "758905ca-0c6e-4fa1-b62b-459636079c37")
+		)
+		(pin "1"
+			(uuid "1242b653-1db9-4eec-bb9b-ba1fbe68f8e9")
+		)
+		(pin "7"
+			(uuid "5c5c4eb5-e7ad-4853-b750-0ab3c38e64d1")
+		)
+		(pin "9"
+			(uuid "21deb851-8c1f-440a-9566-841ad57937a8")
+		)
+		(pin "SH"
+			(uuid "08f9f3dd-9289-4faf-9045-ba55a5f767f2")
+		)
+		(pin "3"
+			(uuid "ad12f3d8-f1ce-42cb-b08d-114e24e338cf")
+		)
+		(pin "6"
+			(uuid "f809f60d-679a-4f40-aa5b-fd81e901cbf5")
+		)
+		(pin "8"
+			(uuid "1699a8ae-a591-4979-be69-b9e0c4692f8a")
+		)
+		(instances
+			(project "Single_Blower"
+				(path "/90bd5b7e-086b-4629-b382-9ed6a3c0cc5e"
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -3637,7 +4444,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 106.68 160.02 0)
+		(at 123.19 159.385 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3648,7 +4455,7 @@
 		(fields_autoplaced yes)
 		(uuid "4f8cd514-6e4d-4925-af4e-04c8252777e2")
 		(property "Reference" "#PWR039"
-			(at 106.68 166.37 0)
+			(at 123.19 165.735 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3659,7 +4466,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 106.68 165.1 0)
+			(at 123.19 164.465 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3670,7 +4477,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 160.02 0)
+			(at 123.19 159.385 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3681,7 +4488,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 160.02 0)
+			(at 123.19 159.385 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3692,7 +4499,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 106.68 160.02 0)
+			(at 123.19 159.385 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3703,7 +4510,7 @@
 			)
 		)
 		(property "Mfg." ""
-			(at 106.68 160.02 0)
+			(at 123.19 159.385 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3714,7 +4521,7 @@
 			)
 		)
 		(property "Mfg. PN" ""
-			(at 106.68 160.02 0)
+			(at 123.19 159.385 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3725,7 +4532,7 @@
 			)
 		)
 		(property "Distributor" ""
-			(at 106.68 160.02 0)
+			(at 123.19 159.385 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3736,7 +4543,7 @@
 			)
 		)
 		(property "Distributor PN" ""
-			(at 106.68 160.02 0)
+			(at 123.19 159.385 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3876,6 +4683,129 @@
 			(project "Single_Blower"
 				(path "/90bd5b7e-086b-4629-b382-9ed6a3c0cc5e"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 134.62 159.385 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59b4142b-b052-4189-a47b-9742cee4cb33")
+		(property "Reference" "#PWR040"
+			(at 134.62 165.735 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 134.62 164.465 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 159.385 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 159.385 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 134.62 159.385 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfg." ""
+			(at 134.62 159.385 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfg. PN" ""
+			(at 134.62 159.385 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" ""
+			(at 134.62 159.385 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor PN" ""
+			(at 134.62 159.385 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7d838b77-6d55-4f7e-a2f6-50b5853237db")
+		)
+		(instances
+			(project "Single_Blower"
+				(path "/90bd5b7e-086b-4629-b382-9ed6a3c0cc5e"
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -4457,7 +5387,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 109.22 120.65 0)
+		(at 123.19 125.73 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4468,7 +5398,7 @@
 		(fields_autoplaced yes)
 		(uuid "863ccc40-1ec4-41e9-9dd2-1d3deb8cf7db")
 		(property "Reference" "#PWR031"
-			(at 109.22 124.46 0)
+			(at 123.19 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4479,7 +5409,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 109.22 115.57 0)
+			(at 123.19 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4489,7 +5419,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 120.65 0)
+			(at 123.19 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4500,7 +5430,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 120.65 0)
+			(at 123.19 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4511,7 +5441,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 109.22 120.65 0)
+			(at 123.19 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
