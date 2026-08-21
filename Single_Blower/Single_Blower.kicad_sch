@@ -3471,7 +3471,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Switch_Daughter_Card_ftp:R0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 185.166 39.624 90)
 			(hide yes)
 			(show_name no)
@@ -3719,7 +3719,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Switch_Daughter_Card_ftp:C0805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 172.72 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -3845,7 +3845,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Fan_Daughter_footprints:C0805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 52.07 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -4615,7 +4615,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fan_Daughter_footprints:R0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 178.054 100.584 90)
 			(hide yes)
 			(show_name no)
@@ -5185,7 +5185,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Switch_Daughter_Card_ftp:R0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 179.324 44.704 90)
 			(hide yes)
 			(show_name no)
@@ -5636,7 +5636,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Fan_Daughter_footprints:C0805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 67.31 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -5761,7 +5761,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Fan_Daughter_footprints:C0805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 48.26 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -6209,7 +6209,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Fan_Daughter_footprints:C0805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 39.37 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -6781,7 +6781,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Single_blower_footprints:TE_640457-4"
 			(at 29.21 33.02 0)
 			(hide yes)
 			(show_name no)
